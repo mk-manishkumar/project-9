@@ -361,7 +361,7 @@ form {
   header {
     display: grid;
     grid-template-columns: 12fr;
-    height: 130vh;
+    height: 110vh;
     text-align: center;
   }
 
@@ -374,7 +374,7 @@ form {
     grid-row: 2;
     grid-column: 1;
     text-align: center;
-    margin: 0;
+    margin: 1rem 0;
   }
 
   .nav-item {
@@ -475,6 +475,16 @@ form {
 /* mobile screen */
 
 @media (max-width: 490px) {
+  header {
+    height: 120vh;
+  }
+
+  nav,
+  .header-image,
+  .header-text {
+    margin-top: -3rem;
+  }
+
   .nav-item {
     margin-right: 0.7rem;
   }
