@@ -31,6 +31,13 @@ This project is a basic UI webpage which is created by using HTML and CSS. It's 
 
 [Project - 9](https://project-9-mk.netlify.app/)
 
+PC-View
+
+![screenshot-crop](https://user-images.githubusercontent.com/102028645/184419283-de6498d8-fc20-4325-8744-f4bd413dd17a.jpeg)
+
+Mobile View
+
+
 # Thumbnail
 
 ![thumbnail](https://user-images.githubusercontent.com/102028645/184411516-3859e6cf-be34-43e2-978a-acba58d075fe.png)
