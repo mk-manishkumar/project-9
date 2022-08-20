@@ -423,7 +423,8 @@ form {
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 50vh;
+    height: max-content;
+    padding-bottom: 2rem;
   }
 
   .faq-image {
