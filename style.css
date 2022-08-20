@@ -434,7 +434,8 @@ form {
   .blog-card {
     width: 80vw;
     flex-direction: column;
-    height: 100vh;
+    height: max-content;
+    padding-bottom: 1rem;
     text-align: center;
   }
 
@@ -512,10 +513,6 @@ form {
 
   .header-image {
     width: 90vw;
-  }
-
-  .faq-section {
-    height: 50vh;
   }
 
   .faq-content {
