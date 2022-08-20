@@ -361,8 +361,9 @@ form {
   header {
     display: grid;
     grid-template-columns: 12fr;
-    height: 110vh;
+    height: max-content;
     text-align: center;
+    padding-bottom: 2rem;
   }
 
   .logo {
@@ -476,17 +477,18 @@ form {
 
 @media (max-width: 490px) {
   header {
-    height: 120vh;
-  }
-
-  nav,
-  .header-image,
-  .header-text {
-    margin-top: -3rem;
+    height: max-content;
   }
 
   .nav-item {
     margin-right: 0.7rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+  }
+
+  nav :nth-child(7) {
+    display: none;
   }
 
   .header-text h2 {
